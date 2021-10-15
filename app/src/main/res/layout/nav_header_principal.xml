@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00BCD4"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/usuarioimagenperfil"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/instituto"
+        app:civ_border_color="#00BCD4"
+        android:layout_marginTop="100dp"
+        app:civ_border_width="2dp"
+        />
+
+    <TextView
+        android:id="@+id/usuarionombreperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:paddingTop="150dp"
+        android:layout_below="@+id/usuarioimagenperfil"
+        android:textStyle="italic|bold"
+        android:text="Contactanos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/usuarionombreperfil"
+        android:textStyle="italic"
+        android:text="0987113616"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:layout_below="@+id/nom"
+        android:textStyle="italic|bold"
+        android:text="Direccion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/direccion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/direccion"
+        android:textStyle="italic"
+        android:text="Malacatos-Loja-Ecuador"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        android:layout_marginBottom="350dp"/>
+
+
+</LinearLayout>
